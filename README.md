@@ -8,7 +8,7 @@ ______
 
 This repository contains data used for the analysis in the paper mentioned above. 
 
-The dataframe is divided into 9 files (thewebconf22_x.pkl) which have to be conbined to make full analysis. 
+The dataframe is divided into 9 files (thewebconf22_x.pkl) which have to be combined to make full analysis. 
 
 The columns include: 
 'userNumber', 'tweetID', 'created_at',
