@@ -24,7 +24,7 @@ The columns include:
 
 * 'opinion' tag is given by our ML model. We trained it on the dataset provided in the paper by Dusmanu et al. (Accuracy = 0.69, F1 = 0.8). This tag was not used in the analysis, we give it for reference.
        
-*  'covid_related', 'vaccine_related', 'china_related' tags were labeled according to the keywords shown in the table below. They were not used in the paper as well.
+*  'covid_related', 'vaccine_related', 'china_related' tags were labeled according to the keywords shown in the table below. 'vaccine_related', 'china_related' tags were not used in the paper as well.
 
 |   **Topic**  |                              **Keywords**                              |% of all tweets|
 |:--------:|:------------------------------------------------------------------:|:----------------:|
