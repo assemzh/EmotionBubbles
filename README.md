@@ -15,20 +15,14 @@ This repository contains data used for the analysis in the paper mentioned above
 The dataframe is divided into 9 files (thewebconf22_x.pkl) which have to be combined to make full analysis. 
 
 The columns include: 
-'userNumber', 'tweetID', 'created_at',
+'tweetID',
        'anger', 'anticipation', 'disgust', 'fear', 'joy', 'love', 'optimism',
-       'pessimism', 'sadness', 'surprise', 'trust', 'opinion',
-       'covid_related', 'vaccine_related', 'china_related'.
+       'pessimism', 'sadness', 'surprise', 'trust'.
        
 * Emotional tags are given by using ML model developed by Baziotis et al. 
-
-* 'opinion' tag is given by our ML model. We trained it on the dataset provided in the paper by Dusmanu et al. (Accuracy = 0.69, F1 = 0.8). This tag was not used in the analysis, we give it for reference.
        
-*  'covid_related', 'vaccine_related', 'china_related' tags were labeled according to the keywords shown in the table below. 'vaccine_related', 'china_related' tags were not used in the paper as well.
+*  'covid_related' tags were labeled according to the keywords shown in the table below.
 
 |   **Topic**  |                              **Keywords**                              |% of all tweets|
 |:--------:|:------------------------------------------------------------------:|:----------------:|
 | COVID-19 | 'covid', 'ncov', 'corona', 'sarscov2', 'pandemic', 'virus', 'viru' |       5. 38      |
-|   China  |                               ‘china’                              |       0.87       |
-|  Vaccine |                'vaccine', 'vaccination', 'vaccinate                |       1.20       |
-|  Opinion |                                 --                                 |       76.90      |
