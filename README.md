@@ -12,7 +12,7 @@ The COVID-19 pandemic has been the single most important global agenda in the pa
 ------
 This repository contains data used for the analysis in the paper mentioned above. 
 
-The dataframe is divided into 9 files (thewebconf22_x.pkl) which have to be combined to make full analysis. 
+The dataframe is divided into 9 files (thewebconf22_x.pkl) which have to be combined to make full analysis. Please, use compression type 'gzip' to access the files
 
 The columns include: 
 'tweetID',
